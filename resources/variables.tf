@@ -1,0 +1,10 @@
+# Input Variables
+#variable "region" {}
+variable "vpc_cidr" {}
+variable "public_subnet_cdir" {}
+variable "private_subnet_cdir" {}
+variable "alert_email_address" {}
+variable "instance_type" {}
+variable "kubernetes_token" {}
+variable "kubernetes_ca_cert_hash" {}
+#variable "ssh_key_name" {}
